@@ -16,5 +16,5 @@ import org.junit.runner.RunWith;
         tags = "@api and @delete_student"
 
 )
-public class CukesRunner {
+public class CukesRunner { //To run with TestNG "extends AbastractTestNGCucumberTest"
 }

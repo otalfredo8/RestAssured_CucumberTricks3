@@ -26,6 +26,7 @@ public class APIStepDefinitions {
 
     @Given("the user has access token as a student")
     public void the_user_has_access_token_as_a_student() {
+
         token = APIUtility.getToken(UserType.TEAM_MEMBER);
     }
 
